@@ -21,6 +21,21 @@
         </div>
     </div>
 
+    <h1 id="myH2">Timer</h1>
+    <audio id="endSound" src="kachow.mp3"></audio>
+    <div id="containerT">
+        <div id="displayT">
+            00:00:00:00
+        </div>
+        <div id="controls2">
+            <button id="upTime" onclick="increaseTime()">Increase Time</button>
+            <button id="downTime" onclick="decreaseTime()">Decrease Time</button>
+            <button id="startTimerBtn" onclick="startTimer()">Start</button>
+            <button id="stopTimerBtn" onclick="stopTimer()">Stop</button>
+            <button id="resetTimerBtn" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
